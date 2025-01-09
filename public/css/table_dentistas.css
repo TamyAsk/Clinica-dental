@@ -1,0 +1,80 @@
+/* Tabla de Dentistas */
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.dentist-table {
+    width: 100%;
+    max-width: 1400px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dentist-table thead {
+    background-color: #112f48;
+    color: #fff;
+}
+
+.dentist-table th,
+.dentist-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-size: 0.875rem;
+}
+
+.dentist-table th {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dentist-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.dentist-table tbody tr:hover {
+    background-color: #e6fffa;
+}
+
+.dentist-table td {
+    color: #000000;
+}
+
+/* Botones de acciones */
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #3182ce;
+}
+
+.btn-edit:hover {
+    background-color: #2b6cb0;
+}
+
+.btn-deactivate {
+    background-color: #e53e3e;
+}
+
+.btn-deactivate:hover {
+    background-color: #c53030;
+}
+
+.btn-activate {
+    background-color: #48bb78;
+}
+
+.btn-activate:hover {
+    background-color: #38a169;
+}

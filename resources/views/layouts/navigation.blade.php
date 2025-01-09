@@ -15,8 +15,14 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Inicio') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('paciente')" :active="request()->routeIs('paciente')">
+                    <x-nav-link :href="route('lista_p')" :active="request()->routeIs('lista_p')">
                         {{ __('Pacientes') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('fomulario.especialidad')" :active="request()->routeIs('fomulario.especialidad')">
+                        {{ __('Registrar dentistas') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('mostrar.dentista')" :active="request()->routeIs('mostrar.dentista')">
+                        {{ __('Dentistas') }}
                     </x-nav-link>
                 </div>
             </div>
