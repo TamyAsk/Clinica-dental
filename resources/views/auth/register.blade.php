@@ -46,7 +46,7 @@
         </div>
 
         <div class="mt-4 text-center">
-            <p style="color: white">¿No tienes una cuenta? 
+            <p style="color: white">¿Tienes una cuenta? 
                 <a href="{{ route('login') }}" class="underline text-sm text-white-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     Inicia Sesion
                 </a>

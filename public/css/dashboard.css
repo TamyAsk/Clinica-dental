@@ -9,10 +9,10 @@
 }
 
 .box {
-    padding: 40px;
-    margin-top: 60px;
-    margin-right: 80px;
-    flex: 1;
+    padding: 20px;  /* Reducido el padding */
+    margin-top: 200px; /* Margen superior ajustado */
+    margin-right: 170px; /* Margen derecho ajustado */
+    flex: 0 1 200px; /* Tamaño base del cuadro cambiado a 200px */
     background-color: #ffffff;
     text-align: center;
     border-radius: 8px;
@@ -25,4 +25,36 @@
 
 .box:last-child {
     margin-right: 0;
+}
+.navbar {
+    background-color: #112f48;
+    color: #fff;
+    padding: 20px;
+}
+.azul-bajito {
+    background-color: #51CBD9;
+    padding: 20px;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.navbar-text {
+    font-size: 0.9rem;
+}
+.sidebar {
+    padding: 95px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.sidebar .btn {
+    background-color: #112f48;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    margin-bottom: 0px;
+    border-radius: 6px;
+}
+.sidebar .btn:hover {
+    background-color: #0d263a;
 }
